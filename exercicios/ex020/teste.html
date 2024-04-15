@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background-color: antiquewhite;
+        }
+
+        h1{
+            background-attachment: fixed;
+        }
+
+        div {
+            display: inline-block ;
+            border: 3px solid black;
+            width: 200px;
+            text-align: center;
+            font-weight: bold;
+            
+        }
+
+        div#d1 > p {
+            display: none;
+        }
+
+        div:hover#d1 > p {
+            display: block;
+            color: red;
+            height: 50px;
+        }
+        div:hover#d1 {
+            background-color: pink;
+        }
+        div:hover#d2{
+            background-color: pink;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover#d2 > p {
+            display: block;
+            height: 20px;
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Produtos Polishop</h1>
+    <div id="d1">
+        Panelas
+        <p>Panelas antiaderentes</p>
+    </div>
+        
+    <div id="d2">
+        Airfry
+        <p>130L</p>
+        <p>210L</p>
+    </div>
+</body>
+</html>
