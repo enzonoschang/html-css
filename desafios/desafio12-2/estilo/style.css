@@ -1,1 +1,6 @@
 @charset "UTF-8";
+
+
+p > pre{
+    white-space: pre-line;  
+}
