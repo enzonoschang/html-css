@@ -11,10 +11,16 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th{
             border: 1px solid black;
             padding: 5px;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         th#pop{
@@ -185,6 +191,6 @@
                 <td class="num"><strong>203 062 512</strong></td>
             </tr>
        </tfoot>
-     </table>           
+     </table> 
 </body>
 </html>
