@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+body, html{
+    background-color: #36373C;
+}
+main > article > p{
+    color: white;
+}
