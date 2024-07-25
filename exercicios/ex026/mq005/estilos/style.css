@@ -1,9 +1,24 @@
 @charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Cores que quero usar: 
+   #BF6900 no hoover 
+   #F3F7F0 no cabeçalho 
+   #36373C no main para combinar com a imagem 
+
+   */
+
+
+header{
+    background-color: #F3F7F0;
+    height: 150px;
+}
 
 li {
     list-style-type: none;
     display: inline-block;
-    text-decoration: none;
 }
 
 body, html{
@@ -11,4 +26,7 @@ body, html{
 }
 main > article > p{
     color: white;
+}
+main{
+    background-image: url(../imagem.png);
 }
