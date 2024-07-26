@@ -2,31 +2,81 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* Cores que quero usar: 
    #BF6900 no hoover 
    #F3F7F0 no cabeçalho 
    #36373C no main para combinar com a imagem 
-
+rgb(116, 81, 81)
+#505158
    */
 
 
 header{
-    background-color: #F3F7F0;
-    height: 150px;
+    background-color:#F3F7F0 ;
+
+}
+header > h1{
+    text-align: center;
+    padding: 30px;
 }
 
-li {
+menu{
+    display: none;
+}
+
+menu > ul {
     list-style-type: none;
-    display: inline-block;
 }
 
-body, html{
+
+menu > ul > li > a{
+    display: block;  
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #787a77;
+    color: white;
+    border-top: 2px solid rgb(36, 36, 36);
+}
+
+menu > ul > li > a:hover{
+    background-color: #a0a79d;
+}
+.material-symbols-outlined{
+    display: block;
+    background-color: rgb(116, 81, 81);
+    color: white;
+    text-align: center;
+    padding: 7px;
+
+}
+.material-symbols-outlined:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+body{
     background-color: #36373C;
+}
+main{ 
+    width: 90vw;
+    background-color: rgb(134, 95, 95);
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+article > h2{
+    padding-bottom: 20px;
 }
 main > article > p{
     color: white;
-}
-main{
-    background-image: url(../imagem.png);
+    text-align: justify;
+    text-indent: 25px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
 }
