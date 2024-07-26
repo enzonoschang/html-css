@@ -9,12 +9,12 @@
    #F3F7F0 no cabeçalho 
    #36373C no main para combinar com a imagem 
 rgb(116, 81, 81)
-#505158
+#36373C
    */
 
 
 header{
-    background-color:#F3F7F0 ;
+    background-color:#36373C;
 
 }
 header > h1{
@@ -42,28 +42,28 @@ menu > ul > li > a{
 }
 
 menu > ul > li > a:hover{
-    background-color: #a0a79d;
+    background-color: #4c504a;
 }
 .material-symbols-outlined{
     display: block;
-    background-color: rgb(116, 81, 81);
-    color: white;
+    background-color: #36373C;
+    color: black;
     text-align: center;
     padding: 7px;
 
 }
 .material-symbols-outlined:hover{
-    background-color: white;
+    background-color: rgb(133, 124, 124);
     color: black;
     cursor: pointer;
 }
 
 body{
-    background-color: #36373C;
+    background-color: #e0e0e0  ;
 }
 main{ 
     width: 90vw;
-    background-color: rgb(134, 95, 95);
+    background-color: rgb(133, 124, 124);
     margin: auto;
     margin-top: 15px;
     padding: 10px;
