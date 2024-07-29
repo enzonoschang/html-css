@@ -62,16 +62,12 @@ menu > ul > li > a:hover{
 }
 
 body{
-    background-color: #e0e0e0;
-    background-image: url(../imagens/background.jpg);
-    background-size: cover;
-    background-attachment: fixe;  
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-color: #e6e9e4;
 }
+
 main{ 
     width: 90vw;
-    background-color: rgba(133, 124, 124, 0.822);
+    background-color: rgba(133, 124, 124, 0.521);
     margin: auto;
     margin-top: 15px;
     padding: 10px;
@@ -95,7 +91,9 @@ footer{
     text-align: center;
     height: 40px;
     padding-top: 20px;
+    margin-top: 20px;
     font-size: 1.11em;
+
 }
 footer > p > a{
     text-decoration: none;
