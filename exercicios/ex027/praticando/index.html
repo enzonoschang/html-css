@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando conhecimentos do módulo</title>
+    <style>
+        .container{
+            background-color: salmon;
+            display: flex;
+            flex-flow: row wrap; 
+            height: 20vw;
+            align-items: flex-start;
+            
+            
+
+        }
+        .itens{
+            border: 1px solid black;
+            padding: 5px;
+            background-color: yellow;
+            flex-basis: 200px;
+            text-align: center;
+            flex-grow: 1;
+            flex-shrink: 1;
+            
+        }
+        div#cxmid{
+            flex-grow: 4;
+            flex-shrink: 4;
+            flex-basis: 50px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="itens">A</div>
+        <div class="itens">B</div>
+        <div class="itens" id="cxmid">C</div>
+        <div class="itens">D</div>
+        <div class="itens">E</div>
+    </div>  
+</body>
+</html>
